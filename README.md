@@ -1,2 +1,2 @@
 # My-Work
-This repository has my Programming, web development etc files.
+This repository has my Programming files for various languages.
