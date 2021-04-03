@@ -1,6 +1,6 @@
 a = "MadhurIsGood"
 
-print(a[1::1]) # 3rd agruement (rightmost one) is called 'Skip Value'
+print(a[1::1])  # 3rd agruement (rightmost one) is called 'Skip Value'
 # upar skip value 1 he matlab har ek character ke bad print/store karna he
 # matlab puri string print hogi acc. to 1st and 2nd agruements
 
@@ -12,4 +12,4 @@ print(a[0::3])
 
 # One thing to note here is that 1st arguement ke corresponding index wala
 # element print hoga phir skiping hogi
-# 2nd agrument ke corresponding element print ho pae to thik warna ni hoga 
+# 2nd agrument ke corresponding element print ho pae to thik warna ni hoga
