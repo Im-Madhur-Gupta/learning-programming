@@ -14,7 +14,7 @@ void print(int largest)
     }
     else if(smallest == (largest - 1))
     {
-        printf("%d %d ", smallest, largest);
+        printf("%d %d\n", smallest, largest);
     }
 }
 int main()
