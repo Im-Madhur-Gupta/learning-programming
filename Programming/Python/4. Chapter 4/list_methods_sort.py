@@ -1,7 +1,7 @@
 # list sort - arranges the elemets in increasing/ascending order (by default)
 # it changes the actual list
 l1 = [1,4,6,True,False,894,7,2,1,0,-8]
-# as True = 1 (vice-versa) and False = 0 (vice-versa)
+# as True = 1 = 1.0 (vice-versa) and False = 0 = 0.0 (vice-versa)
 l1.sort() # l1 has been sorted and modified for storage purpose
 print(l1)
 # l1_sorted = l1.sort() --> is invalid
