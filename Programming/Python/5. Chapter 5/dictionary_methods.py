@@ -44,3 +44,35 @@ print(my_dict)
 temp_dict = {"batman":"hero","ironman":"hero"}
 my_dict.update(temp_dict)
 print(my_dict)
+
+
+
+# 5. To get a value corresponding to a key -
+# dictionary_name.get(key)
+# .get(key) and [key] wale syntax me ye difference he ki .get wala will return None if the 
+# key isn't present in the dictionary, whereas [] will throw error.
+
+print(my_dict.get("Madhur"))
+print(my_dict["Madhur"])
+
+print(my_dict.get("Madhur_")) # --> will return None 
+# print(my_dict["Madhur_"]) --> will throw error
+
+
+
+# 6. Deleting all Key-Value pairs of a dictionary -
+# dictionary_name.clear()
+# it returns an empty dictionary
+
+
+# 7. Deleting a particular Key-Value pair or the whole dictionary -
+# del dictionary_name[key] --> will delete a particular key-value pair
+# del dictionary_name --> will delete the whole dictionary
+# once dictionary is deleted, then printing it will cause error
+
+
+# 8. dictionary_name.pop(key) -
+# This method is used to return the value and delete the key-value pair of the key specified.
+poped = my_dict.pop(8.8)
+print(my_dict)
+print(poped)

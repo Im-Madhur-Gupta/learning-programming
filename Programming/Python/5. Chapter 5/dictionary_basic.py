@@ -38,3 +38,5 @@ print(my_dict)
 # Some ppt. of Dictionary in python -
 # 1. It's UNORDERED
 # 2. Dictionary is INDEXED but this index isn't 0,1,2... rather it's corresponding to keys
+
+# empty dictionary --> my_dict = {}
