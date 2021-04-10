@@ -1,5 +1,5 @@
 # range() function is used to generate a custom sequence of numbers
-# range is another type of pyhton, it's immutable/hashable
+# range is another type of python, it's immutable/hashable, can be accessed through index.
 # range(start , stop , step) -
 
 # start - (optional, default = 0) kis number se range chalu hogi (included)
