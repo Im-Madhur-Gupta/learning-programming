@@ -6,6 +6,7 @@ print(len(a))
 # 2. string_name.endswith("xyz") -
 # checks whether the given string end with "xyz" or not
 print(a.endswith("ia."))
+# similarly we have .startswith()
 
 # 3. string_name.count("") -
 # counts the total number of occuerences of any charcter OR word
