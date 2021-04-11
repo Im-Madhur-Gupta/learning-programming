@@ -15,3 +15,6 @@ print(d)
 # assignment operator - '='
 # similarly we have += , -= , *= , /=
 print(type(a%b))
+
+# exponential operator - **
+# 5 raised to the power 3 = 5**3
