@@ -1,0 +1,3 @@
+java is purely oops based, cpp is oops as well as pop (procedural).
+
+java is compiled as well as interpreted, our code is converted to byte code by compiler then byte code is converted to machine code by interpreter.
