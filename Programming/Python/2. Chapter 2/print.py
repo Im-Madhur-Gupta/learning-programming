@@ -4,7 +4,10 @@ print("check")
 
 # if we do not want the consecutive prints to print on seperate lines, we do the following -
 # print(_____, end="")
-print("HI there, python doesn't need semicolon ", end="")
+print("HI there, python doesn't need semicolon", end="")
+print("check")
+# if we want printing to be seperated by a space then --> end=" "
+print("HI there, python doesn't need semicolon", end=" ")
 print("check")
 
 # to print multiline strings through print function, we use " ''' " triple single quote
