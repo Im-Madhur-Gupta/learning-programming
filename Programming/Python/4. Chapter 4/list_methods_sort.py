@@ -1,4 +1,4 @@
-# list sort - arranges the elemets in increasing/ascending order (by default)
+# list sort - arranges the numeric elemets in increasing/ascending order (by default)
 # it changes the actual list
 l1 = [1,4,6,True,False,894,7,2,1,0,-8]
 # as True = 1 = 1.0 (vice-versa) and False = 0 = 0.0 (vice-versa)
@@ -13,3 +13,5 @@ l2.sort(reverse=True)
 # by defualt the reverse arguement of sort remained False (ascending/increasing)
 print(l2)
 # this could have also been achieved using using default sort then a reverse.
+
+# .sort() alphabetically arranges a list of strings. 
