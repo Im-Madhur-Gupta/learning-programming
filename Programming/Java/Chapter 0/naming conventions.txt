@@ -1,0 +1,5 @@
+class - PascalConvention - each word's 1st letter should be capital ie. MadhurGupta is a valid class name, but jayGupta isn't
+
+functions - camelCaseConvention - 1st word's first letter is small rest same as Pascal
+
+// --> single line comment
