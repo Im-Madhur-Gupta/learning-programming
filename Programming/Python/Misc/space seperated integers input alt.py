@@ -9,5 +9,6 @@ num_list = [int(i) for i in num_str.split()]
 # I will use .split("  ") --> 2 spaces in bracket
 # ex - if I wanted to read a pattern of consecutive *, / and i, then -
 # .split("") will be used --> no spaces in bracket
+# remember to use int(i) as we will have to type cast string to integer.
 
 print(num_list)
