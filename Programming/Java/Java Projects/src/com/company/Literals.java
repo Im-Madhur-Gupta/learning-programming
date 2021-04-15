@@ -31,6 +31,6 @@ public class Literals
         boolean e = true;
         boolean f = false;
 
-        String name ="Madhur"; // String me S capital he.
+        String name ="Madhur"; // String me S capital he, because it's a class.
     }
 }
