@@ -10,6 +10,7 @@ print(a.endswith("ia."))
 
 # 3. string_name.count("") -
 # counts the total number of occuerences of any charcter OR word
+# it returns the total number of NON-overlapping occurences of any charcter OR word.
 print(a.count("a"))
 
 # 4. string_name.capitalize() -
