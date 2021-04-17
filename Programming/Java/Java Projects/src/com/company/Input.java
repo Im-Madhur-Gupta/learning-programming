@@ -37,5 +37,8 @@ public class Input
 //        boolean b2 = obj.hasNextFloat();
 //        System.out.println(b2);
 
+        // For Character input -
+//        char grade = obj.next().charAt(0);
+        // there is no .nextChar() function like .nextInt() function
     }
 }
