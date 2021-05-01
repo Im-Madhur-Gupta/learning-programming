@@ -1,3 +1,5 @@
+import java.util.regex.Pattern;
+
 public class lab_2 {
     public static int rev_num(int num)
     {
@@ -127,6 +129,78 @@ public class lab_2 {
             }
         }
         return num_of_ones;
+    }
+
+    public static boolean email_validator(String email)
+    {
+        // creating a regular expression
+        String regular_exp = "^[a-zA-Z0-9_+&*-]+(?:\\."+ "[a-zA-Z0-9_+&*-]+)*@" + "(?:[a-zA-Z0-9-]+\\.)+[a-z" + "A-Z]{2,7}$";
+
+        // creating a pattern using the regular expresion
+        Pattern pattern = Pattern.compile(regular_exp);
+
+        if (email == null) {
+            return false;
+        }
+
+        // matching given email with pattern
+        return pattern.matcher(email).matches();
+    }
+
+    public static String rev_in_batch(String str,int batch)
+    {
+        char arr[] = str.toCharArray();
+        char temp;
+        for(int i=0;i+batch<=arr.length;i+=batch)
+        {
+            for(int j=0;j<(batch/2);j++)
+            {
+                temp = arr[i+j];
+                arr[i+j] = arr[batch+i-1-j];
+                arr[batch+i-1-j] = temp;
+            }
+
+        }
+
+        String result="";
+        for(char k:arr) {
+            result += k;
+        }
+        return result;
+    }
+
+    public static boolean isomorphic(String str1,String str2)
+    {
+        if(str1.length()!=str2.length()){
+            return false;
+        }
+
+        for(int i=0;i<str1.length();i++)
+        {
+            for(int j=i+1;j<str1.length();j++) {
+                if((str1.charAt(i)==str1.charAt(j)&&str2.charAt(i)==str2.charAt(j)) || (str1.charAt(i)!=str1.charAt(j)&&str2.charAt(i)!=str2.charAt(j))) {
+
+                }
+                else {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public static void inverted_pyrmd(int row)
+    {
+        for(int i=0;i<row;i++)
+        {
+            for(int j=0;j<i;j++) {
+                System.out.print("  ");
+            }
+            for(int k=0;k<(2*(row-i)-1);k++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 
 
