@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61361b88-87e4-4d6c-8c9f-403293695540" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../C/Project 2/RPS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS_fy_Lab/out/production/DS_fy_Lab/lab_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DS_fy_Lab/out/production/DS_fy_Lab/lab_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/Java Projects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/Literals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/ch_1_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/ch_2_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/ch_3_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/ch_4_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/ch_5_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/ch_6_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/for_each_loop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/multi_D_array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/operators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/practice_misc_cbse_percentage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/rock_paper_scissors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/string_input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/string_methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/out/production/Java Projects/com/company/switch_case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/Literals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/arrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/bubble_sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/ch_1_pr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/ch_2_pr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/ch_3_pr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/ch_4_pr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/ch_5_pr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/ch_6_pr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/ch_7_pr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/custom_class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/for_each_loop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/java_regex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/method_overloading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/methods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/multi_D_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/operators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/passing_non_primitive_var_to_methd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/practice_misc_cbse_percentage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/recursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/rock_paper_scissors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/string_input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/string_methods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/strings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/switch_case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects/src/com/company/variable_arguments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programming.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/Literals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/bubble_sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/ch_1_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/ch_2_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/ch_3_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/ch_4_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/ch_5_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/ch_6_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/ch_7_pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/custom_class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/for_each_loop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/java_regex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/method_overloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/multi_D_array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/operators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/passing_non_primitive_var_to_methd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/practice_misc_cbse_percentage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/rock_paper_scissors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/string_input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/string_methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/switch_case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming/com/company/variable_arguments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.vscode/settings.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ch_4_pr.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/bubble_sort.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1s4GJcjXVc7KrzIdVXj7Hoi97vc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DS_fy_Lab" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.bubble_sort">
+    <configuration name="bubble_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.bubble_sort" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="temp" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.bubble_sort" />
+        <item itemvalue="Application.temp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61361b88-87e4-4d6c-8c9f-403293695540" name="Default Changelist" comment="" />
+      <created>1620124378559</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620124378559</updated>
+    </task>
+    <servers />
+  </component>
+</project>
