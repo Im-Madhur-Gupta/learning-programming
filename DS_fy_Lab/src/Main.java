@@ -1,7 +1,8 @@
-import java.util.Scanner;
-
+import javax.sound.midi.Soundbank;
+import java.util.*;
 public class Main {
-    public static void inverted_pyrmd(int row)
+
+    public static void hourglass(int row)
     {
         for(int i=0;i<row;i++)
         {
@@ -14,11 +15,11 @@ public class Main {
             System.out.println();
         }
     }
-    public static void main(String[] args)
-    {
+
+    public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         System.out.print("Enter number of rows to be printed : ");
         int row = obj.nextInt();
-        inverted_pyrmd(row);
+        hourglass(row);
     }
 }
