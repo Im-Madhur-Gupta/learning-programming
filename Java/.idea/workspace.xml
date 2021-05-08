@@ -3,40 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="61361b88-87e4-4d6c-8c9f-403293695540" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../DS_fy_Lab/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DS_fy_Lab/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DS_fy_Lab/out/production/DS_fy_Lab/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DS_fy_Lab/out/production/DS_fy_Lab/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DS_fy_Lab/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DS_fy_Lab/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Literals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/arrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/bubble_sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ch_1_pr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ch_2_pr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ch_3_pr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ch_4_pr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ch_5_pr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ch_6_pr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ch_7_pr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/custom_class.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/for_each_loop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/java_regex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/method_overloading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/methods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/multi_D_array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/operators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/passing_non_primitive_var_to_methd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/practice_misc_cbse_percentage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/recursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/rock_paper_scissors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/string_input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/string_methods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/strings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/switch_case.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/variable_arguments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tbc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tbc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/private_access_modifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/private_access_modifier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/src/ch_4_pr.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/bubble_sort.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ch_8_pr.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/guess_the_number.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1s4GJcjXVc7KrzIdVXj7Hoi97vc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -75,9 +44,16 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.private_access_modifier">
+  <component name="RunManager" selected="Application.guess_the_number">
+    <configuration name="Constructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Constructors" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bubble_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.bubble_sort" />
       <module name="Java" />
@@ -98,6 +74,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="guess_the_number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guess_the_number" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="private_access_modifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="private_access_modifier" />
       <module name="Java" />
@@ -105,19 +88,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temp" />
-      <module name="Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.guess_the_number" />
+        <item itemvalue="Application.Constructors" />
         <item itemvalue="Application.private_access_modifier" />
         <item itemvalue="Application.ch_8_pr" />
         <item itemvalue="Application.bubble_sort" />
-        <item itemvalue="Application.temp" />
       </list>
     </recent_temporary>
   </component>

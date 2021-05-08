@@ -7,6 +7,7 @@ class Employee_private{
 
     // getters and setters - getters are used to return some info, setters are used to set some info.
     // private attributes ke liye getters and setters banane padenge
+
     // setter for id
     public void setId(int temp_id){
         id=temp_id;
@@ -23,6 +24,9 @@ class Employee_private{
     public String  getName(){
         return name;
     }
+
+//    Note - getter and setter banane ka shortcut (alt+insert) --> Getter and Setter, then select the variables for
+//    which we want to create g and s. alternatively top bar me Code then Generate then same
 }
 public class private_access_modifier {
     public static void main(String[] args) {
