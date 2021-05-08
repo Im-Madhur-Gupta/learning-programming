@@ -150,7 +150,50 @@ public class lab_3 {
         return (end-start)/1000000.0f; // converting time to ms and returning it
     }
 
+    public static void hourglass(int row)
+    {
+        for(int i=0;i<row;i++)
+        {
+            for(int j=0;j<i;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int k=0;k<row-i;k++)
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
 
+        for (int l=row-2;l>=0;l--)
+        {
+            for(int m=0;m<l;m++)
+            {
+                System.out.print(" ");
+            }
+            for(int n=0;n<row-l;n++)
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static boolean chk_pretty(int arr[])
+    {
+        if(arr[0]!=0){
+            return false;
+        }
+
+        for(int i=1;i<arr.length;i++)
+        {
+            if(arr[i]%i!=0){
+                return false;
+            }
+        }
+
+        return true;
+    }
 
     public static void main(String[] args) {
 
