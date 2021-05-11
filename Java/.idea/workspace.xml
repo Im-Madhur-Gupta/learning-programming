@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61361b88-87e4-4d6c-8c9f-403293695540" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DS_fy_Lab/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DS_fy_Lab/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/private_access_modifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/private_access_modifier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/private_access_modifier.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/custom_class.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ch_7_pr.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ch_4_pr.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/bubble_sort.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ch_8_pr.java" root0="SKIP_INSPECTION" />
@@ -46,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.guess_the_number">
+  <component name="RunManager" selected="Application.ch_7_pr">
     <configuration name="Constructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Constructors" />
       <module name="Java" />
@@ -54,8 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bubble_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.bubble_sort" />
+    <configuration name="ch_7_pr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch_7_pr" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -90,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ch_7_pr" />
         <item itemvalue="Application.guess_the_number" />
         <item itemvalue="Application.Constructors" />
         <item itemvalue="Application.private_access_modifier" />
         <item itemvalue="Application.ch_8_pr" />
-        <item itemvalue="Application.bubble_sort" />
       </list>
     </recent_temporary>
   </component>
