@@ -37,20 +37,20 @@ public class DoublyLinkedList<E>{
 
         DLLNode newNode = new DLLNode(element_data);
         if (index == 0 && size!=0) {
-            newNode.prev = null;
+//            newNode.prev = null; naye bane node ki .prev pehle se hi null hogi
             newNode.next = head;
             head.prev = newNode;
             head = newNode;
         }
         else if(index==(size-1) && size!=0){
-            newNode.next = null;
+//            newNode.next = null; naye bane node ki .next pehle se hi null hogi
             newNode.prev = tail;
             tail.next = newNode;
             tail = newNode;
         }
         else if (index == 0 && size==0){
-            newNode.prev = null;
-            newNode.next = null;
+//            newNode.prev = null; naye bane node ki .prev pehle se hi null hogi
+//            newNode.next = null; naye bane node ki .next pehle se hi null hogi
             head = newNode;
             tail = newNode;
         }
