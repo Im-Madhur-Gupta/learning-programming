@@ -1,7 +1,7 @@
 import java.util.*;
 // above will import Vector and List classes.
 
-public class vector {
+public class VectorJDK {
     public static void main(String[] args) {
         List<Employee> vector_list = new Vector<>();
 

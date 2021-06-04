@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class array_list {
+public class ArrayLinearListJDK {
     public static void main(String[] args) {
         // Initializing an ArrayList that can store objects of the Employee class
         ArrayList<Employee> employee_list = new ArrayList<>();
@@ -57,7 +57,7 @@ public class array_list {
         System.out.println(employee_list.contains(new Employee("Dev","Patel",322)));
         System.out.println(employee_list.contains(new Employee("Dev","Ashok",322)));
         // IMP Note - The above statements return false as we have created NEW INSTANCES ie data maybe structurally
-        // the same but its stored in different memeory addresses hence the default .equals() method for
+        // the same but its stored in different memory addresses hence the default .equals() method for
         // Objects that was used somewhere in .conatins() returns false.
         // So, to fix this we have to create a .equals() method in Employee class such that it checks whether data is
         // structurally same or not for the given Objects of Employee class.
