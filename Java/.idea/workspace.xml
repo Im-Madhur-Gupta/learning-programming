@@ -20,15 +20,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/DynamicMethodDispatch.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Library.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/private_access_modifier.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/ch_7_pr.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Abstract_Methods_and_Classes.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ch_10_pr.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/custom_class.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/guess_the_number.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/ch_4_pr.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ch_8_pr.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Inheritance.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/bubble_sort.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Constructors_in_Inheriatnce.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Interface.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ch_7_pr.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/guess_the_number.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ch_4_pr.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Method_overriding.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Inheritance.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1s4GJcjXVc7KrzIdVXj7Hoi97vc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -47,43 +53,37 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.this_keyword">
-    <configuration name="Constructors_in_Inheriatnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Constructors_in_Inheriatnce" />
+  <component name="RunManager" selected="Application.Interface">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance" />
+    <configuration name="DynamicMethodDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicMethodDispatch" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch_7_pr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ch_7_pr" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="guess_the_number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guess_the_number" />
+    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interface" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="this_keyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="this_keyword" />
+    <configuration name="Method_overriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Method_overriding" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Object_overriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Object_overriding" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.this_keyword" />
-        <item itemvalue="Application.guess_the_number" />
-        <item itemvalue="Application.Constructors_in_Inheriatnce" />
-        <item itemvalue="Application.Inheritance" />
-        <item itemvalue="Application.ch_7_pr" />
+        <item itemvalue="Application.Interface" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.DynamicMethodDispatch" />
+        <item itemvalue="Application.Method_overriding" />
+        <item itemvalue="Application.Object_overriding" />
       </list>
     </recent_temporary>
   </component>

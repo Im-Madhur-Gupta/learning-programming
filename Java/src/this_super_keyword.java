@@ -19,9 +19,11 @@ class TempClass{
     }
     public int returnsOne(){return 1;}
 }
-public class this_keyword {
+public class this_super_keyword {
     public static void main(String[] args) {
         TempClass obj = new TempClass(7);
         System.out.println(obj.getA_and_setgetB());
     }
 }
+
+// super keyword gives a reference to an object of the immediate parent class.
