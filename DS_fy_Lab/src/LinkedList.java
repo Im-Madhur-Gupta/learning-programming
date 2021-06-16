@@ -127,7 +127,6 @@ public class LinkedList<E>{
         }
         str.append("]");
         return new String(str);
-
     }
 
 }
