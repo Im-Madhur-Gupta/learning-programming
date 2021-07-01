@@ -15,7 +15,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Queue.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Insertion_and_Merge_Sort.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1thZ4CLXAmAG5Zu982OPcEHSo9J" />
   <component name="ProjectView">
@@ -85,9 +85,17 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="Application.Insertion_and_Merge_Sort">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
+      <module name="Lab_Temp" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Insertion_and_Merge_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Insertion_and_Merge_Sort" />
       <module name="Lab_Temp" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -113,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Insertion_and_Merge_Sort" />
         <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
