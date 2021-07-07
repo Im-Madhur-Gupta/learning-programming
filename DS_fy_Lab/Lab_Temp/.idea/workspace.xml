@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Quick_and_Counting_Sort.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1thZ4CLXAmAG5Zu982OPcEHSo9J" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -82,7 +85,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Insertion_and_Merge_Sort">
+  <component name="RunManager" selected="Application.Quick_and_Counting_Sort">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="Lab_Temp" />
@@ -110,7 +113,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Quick_and_Counting_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Quick_and_Counting_Sort" />
+      <module name="Lab_Temp" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="temp" />
+      <module name="Lab_Temp" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,6 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Quick_and_Counting_Sort" />
+        <item itemvalue="Application.temp" />
         <item itemvalue="Application.Insertion_and_Merge_Sort" />
         <item itemvalue="Application.Driver" />
       </list>
