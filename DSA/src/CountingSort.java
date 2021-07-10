@@ -36,6 +36,7 @@ public class CountingSort {
     public static void main(String[] args) {
         int temparr[] = {1,-1,-3,4,-5,6,-7,3,5,4,1,2,8,10};
         counting_sort_me(temparr,-7,10);
+
         for(int i:temparr){
             System.out.print(i+" ");
         }
