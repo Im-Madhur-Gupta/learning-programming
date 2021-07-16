@@ -1,7 +1,9 @@
+import java.util.NoSuchElementException;
+
 class BST_Node{
-    private int data;
-    private BST_Node leftChild;
-    private BST_Node rightChild;
+    int data;
+    BST_Node leftChild;
+    BST_Node rightChild;
 
     public BST_Node(int data) {
         this.data = data;
@@ -50,32 +52,6 @@ class BST_Node{
         }
     }
 
-    public BST_Node get(int value){
-        // Iterative
-//        BST_Node currentNode = this;
-//        while(currentNode!=null && currentNode.data!=value){
-//            if(currentNode.data>value){
-//                currentNode = currentNode.leftChild;
-//            }
-//            else{
-//                currentNode = currentNode.rightChild;
-//            }
-//        }
-//        return currentNode;
-
-        // recursive
-        if(value==data){
-            return this;
-        }
-        else if (value<data && leftChild!=null){
-            return leftChild.get(value);
-        }
-        else if(value>data && rightChild!=null){
-            return rightChild.get(value);
-        }
-        return null;
-    }
-
     public BST_Node getMin(){
         // Iterative method
 //        BST_Node currentNode = this;
@@ -105,30 +81,6 @@ class BST_Node{
         }
         return rightChild.getMax();
     }
-
-    public int getData() {
-        return data;
-    }
-
-    public void setData(int data) {
-        this.data = data;
-    }
-
-    public BST_Node getLeftChild() {
-        return leftChild;
-    }
-
-    public void setLeftChild(BST_Node leftChild) {
-        this.leftChild = leftChild;
-    }
-
-    public BST_Node getRightChild() {
-        return rightChild;
-    }
-
-    public void setRightChild(BST_Node rightChild) {
-        this.rightChild = rightChild;
-    }
 }
 
 class BST{ // BST - Binary Search Tree
@@ -152,54 +104,126 @@ class BST{ // BST - Binary Search Tree
         System.out.println();
     }
 
-    public BST_Node getNode(int value){
-        if(rootNode==null){
-            return rootNode;
+    public BST_Node search(int value){
+        // Iterative -
+//        BST_Node currentNode = rootNode;
+//        while(currentNode!=null && currentNode.data!=value){
+//            if(currentNode.data>value){
+//                currentNode = currentNode.leftChild;
+//            }
+//            else{
+//                currentNode = currentNode.rightChild;
+//            }
+//        }
+//        return currentNode;
+
+        // Recursive Call initiator -
+        return search(rootNode,value);
+    }
+    private BST_Node search(BST_Node tempNode,int value){
+        // Recursive -
+        if(tempNode==null || tempNode.data==value){
+            return tempNode;
         }
-        return rootNode.get(value);
+        if(tempNode.data<value){
+            return search(tempNode.rightChild,value);
+        }
+        return search(tempNode.leftChild,value);
+    }
+    public int getMax(){
+        if(rootNode==null){
+            throw new IllegalArgumentException();
+        }
+        return rootNode.getMax().data;
+    }
+    public int getMin(){
+        if(rootNode==null){
+            throw new IllegalArgumentException();
+        }
+        return rootNode.getMin().data;
     }
 
-    public BST_Node getMaxNode(){
+    public void deleteNode(int value){
         if(rootNode==null){
-            return rootNode;
+            throw new IllegalArgumentException("Root of Tree is NULL.");
         }
-        return rootNode.getMax();
+        deleteNodeRecur(rootNode,value);
     }
-
-    public BST_Node getMinNode(){
-        if(rootNode==null){
-            return rootNode;
+    private BST_Node deleteNodeRecur(BST_Node subRoot,int value){
+        if(subRoot==null){
+            throw new IllegalArgumentException("Value not found");
         }
-        return rootNode.getMin();
+
+        if(value<subRoot.data){
+            subRoot.leftChild = deleteNodeRecur(subRoot.leftChild,value); // iska matlab ye ki subroot ki left branch me change karna padega
+        }
+        else if(value>subRoot.data){
+            subRoot.rightChild = deleteNodeRecur(subRoot.rightChild,value); // subroot ki right branch me change karna padega.
+        }
+        else{
+            if(subRoot.leftChild==null){
+                return subRoot.rightChild;
+            }
+            else if(subRoot.rightChild==null){
+                return subRoot.leftChild;
+            }
+
+            BST_Node successor = subRoot.rightChild, parent = subRoot;
+            while(successor.leftChild!=null){
+                parent = successor;
+                successor = successor.leftChild;
+            }
+            subRoot.data=successor.data;
+            if(parent==subRoot){
+                subRoot.rightChild = successor.rightChild;
+            }
+            else{
+                parent.leftChild=successor.rightChild;
+            }
+
+        }
+        return subRoot;
     }
 }
 
 class Test{
     public static void main(String[] args) {
         BST t1 = new BST();
-        t1.BST_InsertNode(1);
-        t1.BST_InsertNode(2);
-        t1.BST_InsertNode(3);
-        t1.BST_InsertNode(-1);
+        t1.BST_InsertNode(25);
+        t1.BST_InsertNode(20);
+        t1.BST_InsertNode(27);
+        t1.BST_InsertNode(15);
+        t1.BST_InsertNode(17);
+        t1.BST_InsertNode(16);
+        t1.BST_InsertNode(22);
+        t1.BST_InsertNode(26);
+        t1.BST_InsertNode(30);
+        t1.BST_InsertNode(29);
+        t1.BST_InsertNode(32);
 
         System.out.print("t1 is - ");
         t1.BST_Traversal_Print();
 
-        System.out.println("\nSearching for nodes in t1 - ");
-        BST_Node searchNode1 = t1.getNode(2);
-        System.out.println(searchNode1);
-        BST_Node searchNode2 = t1.getNode(0);
-        System.out.println(searchNode2);
+//        System.out.println("\nSearching for nodes in t1 - ");
+//        BST_Node searchNode1 = t1.search(2);
+//        System.out.println(searchNode1);
+//        BST_Node searchNode2 = t1.search(0);
+//        System.out.println(searchNode2);
+//
+//        System.out.println("\nMax and Min of t1 - ");
+//        System.out.println("max - "+t1.getMax());
+//        System.out.println("min - "+t1.getMin());
 
-        System.out.println("\nMax and Min of t1 - ");
-        System.out.println("max - "+t1.getMaxNode());
-        System.out.println("min - "+t1.getMinNode());
+        t1.deleteNode(20);
+        t1.BST_Traversal_Print();
+        t1.deleteNode(16);
+        t1.BST_Traversal_Print();
+        t1.deleteNode(25);
+        t1.BST_Traversal_Print();
 
-        BST t2 = new BST();
-        System.out.print("\nt2 is - ");
-        t2.BST_Traversal_Print();
-        System.out.println("\nMax and Min of t2 - ");
-        System.out.println("max - "+t2.getMaxNode());
-        System.out.println("min - "+t2.getMinNode());
+//        t1.deleteNode(4); // 4 is not in tree, will thorw value not found error
+
+//        BST t2 = new BST();
+//        t2.deleteNode(2); // as its an empty tree error will be thrown.
     }
 }
