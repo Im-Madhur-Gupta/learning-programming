@@ -53,7 +53,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Interface">
+  <component name="RunManager" selected="Application.char_is_letter_or_digit">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application" />
       <module name="Java" />
@@ -75,15 +75,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method_overriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Method_overriding" />
+    <configuration name="char_is_letter_or_digit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="char_is_letter_or_digit" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Object_overriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Object_overriding" />
+    <configuration name="type_casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="type_casting" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.char_is_letter_or_digit" />
+        <item itemvalue="Application.type_casting" />
         <item itemvalue="Application.Interface" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.DynamicMethodDispatch" />
-        <item itemvalue="Application.Method_overriding" />
-        <item itemvalue="Application.Object_overriding" />
       </list>
     </recent_temporary>
   </component>

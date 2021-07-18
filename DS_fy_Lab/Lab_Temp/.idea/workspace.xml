@@ -14,6 +14,10 @@
       </list>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Stack.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/lab_10_202051112.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1thZ4CLXAmAG5Zu982OPcEHSo9J" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -77,12 +81,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Quick_and_Counting_Sort">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mg\Desktop\Git\Programming\DS_fy_Lab\Lab_Temp\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.lab_10_202051112">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="Lab_Temp" />
@@ -91,21 +100,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Insertion_and_Merge_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Insertion_and_Merge_Sort" />
+    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GFG" />
       <module name="Lab_Temp" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Lab_Temp" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,6 +122,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lab_10_202051112" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_10_202051112" />
+      <module name="Lab_Temp" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="temp" />
       <module name="Lab_Temp" />
@@ -134,10 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Quick_and_Counting_Sort" />
+        <item itemvalue="Application.lab_10_202051112" />
+        <item itemvalue="Application.GFG" />
         <item itemvalue="Application.temp" />
-        <item itemvalue="Application.Insertion_and_Merge_Sort" />
         <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.Quick_and_Counting_Sort" />
       </list>
     </recent_temporary>
   </component>

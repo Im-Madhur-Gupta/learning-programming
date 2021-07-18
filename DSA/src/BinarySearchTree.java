@@ -1,5 +1,3 @@
-import java.util.NoSuchElementException;
-
 class BST_Node{
     int data;
     BST_Node leftChild;
@@ -32,13 +30,13 @@ class BST_Node{
         }
     }
 
-    public void traversalInOrder_print(){ // Inorder Traversal karega
+    public void traversalInOrder(){ // Inorder Traversal karega
         if(leftChild!=null){
-            leftChild.traversalInOrder_print();
+            leftChild.traversalInOrder();
         }
         System.out.print(data+", ");
         if(rightChild!=null){
-            rightChild.traversalInOrder_print();
+            rightChild.traversalInOrder();
         }
     }
 
@@ -95,13 +93,29 @@ class BST{ // BST - Binary Search Tree
         rootNode.insertNode(value);
     }
 
-    public void BST_Traversal_Print(){
+    public void Traversal_inorder(){
         if(rootNode==null){
             System.out.println("null");
             return;
         }
-        rootNode.traversalInOrder_print();
+        rootNode.traversalInOrder();
         System.out.println();
+    }
+
+    public void Traversal_preorder(){
+        if(rootNode==null){
+            return;
+        }
+        Traversal_preorder(rootNode);
+    }
+    private void Traversal_preorder(BST_Node tempNode){
+        System.out.print(tempNode.data+", ");
+        if(tempNode.leftChild!=null){
+            Traversal_preorder(tempNode.leftChild);
+        }
+        if(tempNode.rightChild!=null){
+            Traversal_preorder(tempNode.rightChild);
+        }
     }
 
     public BST_Node search(int value){
@@ -201,8 +215,12 @@ class Test{
         t1.BST_InsertNode(29);
         t1.BST_InsertNode(32);
 
-        System.out.print("t1 is - ");
-        t1.BST_Traversal_Print();
+        System.out.print("t1 inorder is - ");
+        t1.Traversal_inorder();
+
+        System.out.print("t1 preorder is - ");
+        t1.Traversal_preorder();
+        System.out.println();
 
 //        System.out.println("\nSearching for nodes in t1 - ");
 //        BST_Node searchNode1 = t1.search(2);
@@ -215,11 +233,11 @@ class Test{
 //        System.out.println("min - "+t1.getMin());
 
         t1.deleteNode(20);
-        t1.BST_Traversal_Print();
+        t1.Traversal_inorder();
         t1.deleteNode(16);
-        t1.BST_Traversal_Print();
+        t1.Traversal_inorder();
         t1.deleteNode(25);
-        t1.BST_Traversal_Print();
+        t1.Traversal_inorder();
 
 //        t1.deleteNode(4); // 4 is not in tree, will thorw value not found error
 

@@ -2,6 +2,10 @@ a = 65  # a integer variable
 b = float(a)  # typecasted to a float variable
 print(a, b)
 
+a='0'
+b=int(a)
+print(b)
+
 # python me typecast karne ke liye mai jis datatype me typecast karna he uske
 # corresponding function use kar leta hu
 # typecasting may NOT be always possible
