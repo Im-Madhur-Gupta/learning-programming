@@ -8,7 +8,6 @@ public class lab_3 {
         for(int i=0;i<100;i++){
             num[i] = ThreadLocalRandom.current().nextInt(1000, 10000+1);
         }
-
         // for case_type = 0 numbers are to be left in random order
         if(case_type==1) // when numbers should be in ascending order prior to sorting
         {

@@ -14,10 +14,6 @@
       </list>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Stack.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/lab_10_202051112.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="ProjectId" id="1thZ4CLXAmAG5Zu982OPcEHSo9J" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -91,9 +87,9 @@
       <recent name="C:\Users\Mg\Desktop\Git\Programming\DS_fy_Lab\Lab_Temp\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lab_10_202051112">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Driver" />
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
       <module name="Lab_Temp" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -108,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quick_and_Counting_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Quick_and_Counting_Sort" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeapSort" />
       <module name="Lab_Temp" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -140,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.lab_10_202051112" />
         <item itemvalue="Application.GFG" />
         <item itemvalue="Application.temp" />
-        <item itemvalue="Application.Driver" />
-        <item itemvalue="Application.Quick_and_Counting_Sort" />
       </list>
     </recent_temporary>
   </component>

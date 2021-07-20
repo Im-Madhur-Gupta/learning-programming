@@ -29,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/src/ch_8_pr.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/bubble_sort.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Constructors_in_Inheriatnce.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/space_seperated_int_read.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Interface.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ch_7_pr.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/guess_the_number.java" root0="SKIP_INSPECTION" />
@@ -53,16 +54,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.char_is_letter_or_digit">
+  <component name="RunManager" selected="Application.space_seperated_int_read">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application" />
-      <module name="Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicMethodDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicMethodDispatch" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,6 +76,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="space_seperated_int_read" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="space_seperated_int_read" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="type_casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="type_casting" />
       <module name="Java" />
@@ -91,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.space_seperated_int_read" />
         <item itemvalue="Application.char_is_letter_or_digit" />
         <item itemvalue="Application.type_casting" />
         <item itemvalue="Application.Interface" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.DynamicMethodDispatch" />
       </list>
     </recent_temporary>
   </component>
