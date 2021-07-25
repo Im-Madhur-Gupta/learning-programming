@@ -90,9 +90,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.Application1">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="Lab_Temp" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application1" />
       <module name="Lab_Temp" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -129,21 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temp" />
-      <module name="Lab_Temp" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application1" />
+        <item itemvalue="Application.GFG" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.lab_10_202051112" />
-        <item itemvalue="Application.GFG" />
-        <item itemvalue="Application.temp" />
       </list>
     </recent_temporary>
   </component>
@@ -157,5 +157,13 @@
       <updated>1623223089670</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((BinaryTree)this).rootNode" custom="BinaryTree" />
+        <watch expression="tempNode" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

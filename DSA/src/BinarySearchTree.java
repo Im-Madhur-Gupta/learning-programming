@@ -7,29 +7,6 @@ class BST_Node{
         this.data = data;
     }
 
-    public void insertNode(int value){
-        if(data==value){
-            System.out.println("Duplicate values aren't allowed.");
-            return;
-        }
-        else if(data>value){
-            if(leftChild==null){
-                leftChild=new BST_Node(value);
-            }
-            else{
-                leftChild.insertNode(value);
-            }
-        }
-        else{
-            if(rightChild==null){
-                rightChild=new BST_Node(value);
-            }
-            else{
-                rightChild.insertNode(value);
-            }
-        }
-    }
-
     public void traversalInOrder(){ // Inorder Traversal karega
         if(leftChild!=null){
             leftChild.traversalInOrder();
@@ -85,12 +62,21 @@ class BST{ // BST - Binary Search Tree
     // This implementation of BST doesn't allow duplicate values.
     private BST_Node rootNode;
 
-    public void BST_InsertNode(int value){
-        if(rootNode==null){ // Tree is empty
-            rootNode = new BST_Node(value);
-            return;
+    public void insertNode(int value){
+        insertNode(rootNode,value);
+    }
+    private void insertNode(BST_Node tempNode, int value){
+        if(tempNode==null){
+            tempNode = new BST_Node(value);
         }
-        rootNode.insertNode(value);
+        else if(tempNode.data<value){
+            insertNode(tempNode.leftChild,value);
+            // avl code will be added here
+        }
+        else if(tempNode.data>=value){
+            insertNode(tempNode.rightChild,value);
+            // avl code will be added here
+        }
     }
 
     public void Traversal_inorder(){
@@ -203,24 +189,24 @@ class BST{ // BST - Binary Search Tree
 class Test{
     public static void main(String[] args) {
         BST t1 = new BST();
-        t1.BST_InsertNode(25);
-        t1.BST_InsertNode(20);
-        t1.BST_InsertNode(27);
-        t1.BST_InsertNode(15);
-        t1.BST_InsertNode(17);
-        t1.BST_InsertNode(16);
-        t1.BST_InsertNode(22);
-        t1.BST_InsertNode(26);
-        t1.BST_InsertNode(30);
-        t1.BST_InsertNode(29);
-        t1.BST_InsertNode(32);
+        t1.insertNode(1);
+        t1.insertNode(2);
+        t1.insertNode(3);
+        t1.insertNode(1);
+        t1.insertNode(-2);
+//        t1.insertNode(16);
+//        t1.insertNode(22);
+//        t1.insertNode(26);
+//        t1.insertNode(30);
+//        t1.insertNode(29);
+//        t1.insertNode(32);
 
         System.out.print("t1 inorder is - ");
         t1.Traversal_inorder();
 
-        System.out.print("t1 preorder is - ");
-        t1.Traversal_preorder();
-        System.out.println();
+//        System.out.print("t1 preorder is - ");
+//        t1.Traversal_preorder();
+//        System.out.println();
 
 //        System.out.println("\nSearching for nodes in t1 - ");
 //        BST_Node searchNode1 = t1.search(2);
@@ -232,12 +218,12 @@ class Test{
 //        System.out.println("max - "+t1.getMax());
 //        System.out.println("min - "+t1.getMin());
 
-        t1.deleteNode(20);
-        t1.Traversal_inorder();
-        t1.deleteNode(16);
-        t1.Traversal_inorder();
-        t1.deleteNode(25);
-        t1.Traversal_inorder();
+//        t1.deleteNode(20);
+//        t1.Traversal_inorder();
+//        t1.deleteNode(16);
+//        t1.Traversal_inorder();
+//        t1.deleteNode(25);
+//        t1.Traversal_inorder();
 
 //        t1.deleteNode(4); // 4 is not in tree, will thorw value not found error
 

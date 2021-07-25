@@ -1,4 +1,3 @@
-// Madhur Gupta (202051112)
 class BinaryTreeNode {
     int data;
     BinaryTreeNode leftChild;
@@ -16,7 +15,7 @@ public class BinaryTree{
             rootNode = new BinaryTreeNode(value);
             return;
         }
-        // Level Order insertion in a Binary Tree using a Queue.
+        // Level Order insertion in a Binary Tree using a Queue. IMPORTANT
         Queue<BinaryTreeNode> tempQueue = new QueueLL<BinaryTreeNode>();
         BinaryTreeNode tempNode;
         tempQueue.enqueue(rootNode);
@@ -107,12 +106,6 @@ class Application1{
         t1.insertNode(1);
         t1.insertNode(1);
         t1.insertNode(2);
-        t1.insertNode(100);
-        t1.insertNode(-54);
-        t1.insertNode(12);
-        t1.insertNode(1);
-        t1.insertNode(-8);
-        t1.insertNode(3);
 
         System.out.print("Preorder Traversal of given Binary Tree is - ");
         t1.preorderTraversal();
@@ -124,3 +117,4 @@ class Application1{
         t1.postorderTraversal();
     }
 }
+
