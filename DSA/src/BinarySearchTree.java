@@ -63,20 +63,22 @@ class BST{ // BST - Binary Search Tree
     private BST_Node rootNode;
 
     public void insertNode(int value){
-        insertNode(rootNode,value);
+        rootNode = insertNode(rootNode,value);
     }
-    private void insertNode(BST_Node tempNode, int value){
+    private BST_Node insertNode(BST_Node tempNode, int value){
         if(tempNode==null){
-            tempNode = new BST_Node(value);
+            return new BST_Node(value);
         }
-        else if(tempNode.data<value){
-            insertNode(tempNode.leftChild,value);
+
+        if(tempNode.data>value){
+            tempNode.leftChild = insertNode(tempNode.leftChild,value);
             // avl code will be added here
         }
-        else if(tempNode.data>=value){
-            insertNode(tempNode.rightChild,value);
+        else if(tempNode.data<=value){
+             tempNode.rightChild = insertNode(tempNode.rightChild,value);
             // avl code will be added here
         }
+        return tempNode;
     }
 
     public void Traversal_inorder(){
@@ -147,7 +149,7 @@ class BST{ // BST - Binary Search Tree
         if(rootNode==null){
             throw new IllegalArgumentException("Root of Tree is NULL.");
         }
-        deleteNodeRecur(rootNode,value);
+        rootNode = deleteNodeRecur(rootNode,value);
     }
     private BST_Node deleteNodeRecur(BST_Node subRoot,int value){
         if(subRoot==null){
@@ -180,16 +182,34 @@ class BST{ // BST - Binary Search Tree
             else{
                 parent.leftChild=successor.rightChild;
             }
-
         }
         return subRoot;
+    }
+
+    static int prev = Integer.MIN_VALUE;
+    public static Boolean isBST(BinaryTree bt){
+        return isBST(bt.rootNode);
+    }
+    private static Boolean isBST(BinaryTreeNode tempNode){
+        if(tempNode==null){
+            return true;
+        }
+
+        if(!isBST(tempNode.leftChild)){
+            return false;
+        }
+        if(tempNode.data <=prev){
+            return false;
+        }
+        prev = tempNode.data;
+        return isBST(tempNode.rightChild);
     }
 }
 
 class Test{
     public static void main(String[] args) {
         BST t1 = new BST();
-        t1.insertNode(1);
+        t1.insertNode(20);
         t1.insertNode(2);
         t1.insertNode(3);
         t1.insertNode(1);
@@ -218,8 +238,8 @@ class Test{
 //        System.out.println("max - "+t1.getMax());
 //        System.out.println("min - "+t1.getMin());
 
-//        t1.deleteNode(20);
-//        t1.Traversal_inorder();
+        t1.deleteNode(20);
+        t1.Traversal_inorder();
 //        t1.deleteNode(16);
 //        t1.Traversal_inorder();
 //        t1.deleteNode(25);

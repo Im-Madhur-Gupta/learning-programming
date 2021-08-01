@@ -37,6 +37,9 @@ public class Employee {
 
     @Override
     public String toString() {
+        if(this==null){
+            return "null";
+        }
         return "{firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", id=" + id +
