@@ -57,7 +57,7 @@ public class InsertionSort {
             tshell += (end-start);
         }
 
-        System.out.printf("Insertion - %.4f\n",tinsert/10000000.0f);
+        System.out.printf("Insertion - %.4f\n",tinsert/10000000.0);
         System.out.printf("Shell - %.4f",tshell/10000000.0f);
 
 //        for(int i:temp_arr){
