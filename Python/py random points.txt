@@ -1,0 +1,5 @@
+1. if you want to check whether an element is present in the list or not then just use "in", ex - 4 in list1
+
+2. arr = [0]*n creates an array filled with n 0s
+
+3. 
