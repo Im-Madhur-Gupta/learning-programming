@@ -10,7 +10,7 @@ for t in range(int(input())):
         p = int(p)
         h = int(h)
 
-        b = int((((3**p) % (7+10**9))-1)/2)
+        b = 3*p
         if(b > L):
             m = math.ceil((b-L)/p)
         else:
