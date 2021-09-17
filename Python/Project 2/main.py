@@ -15,10 +15,10 @@ while(userGuess != randNumber):
             print("You guessed it wrong! Enter a larger number")
 
 print(f"You guessed the number in {guesses} guesses")
-with open("hiscore.txt", "r") as f:
+with open("./hiscore.txt", "r") as f:
     hiscore = int(f.read())
 
 if(guesses<hiscore):
     print("You have just broken the high score!")
-    with open("hiscore.txt", "w") as f:
+    with open("./hiscore.txt", "w") as f:
         f.write(str(guesses))
