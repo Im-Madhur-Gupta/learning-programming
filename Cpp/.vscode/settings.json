@@ -3,5 +3,6 @@
         "*.js": "javascriptreact",
         "ostream": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "cSpell.enabled": true
 }

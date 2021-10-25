@@ -24,6 +24,7 @@
     <setting file="file://$PROJECT_DIR$/src/Inheritance.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Library.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/private_access_modifier.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Exercise_Swap_Nums.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/custom_class.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ch_10_pr.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ch_8_pr.java" root0="SKIP_INSPECTION" />
@@ -51,14 +52,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
   </component>
-  <component name="RunManager" selected="Application.rock_paper_scissors">
-    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interface" />
+  <component name="RunManager" selected="Application.Exercise_Swap_Nums">
+    <configuration name="Exercise_Swap_Nums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise_Swap_Nums" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise_Swap_Nums" />
         <item itemvalue="Application.rock_paper_scissors" />
         <item itemvalue="Application.space_seperated_int_read" />
         <item itemvalue="Application.char_is_letter_or_digit" />
         <item itemvalue="Application.type_casting" />
-        <item itemvalue="Application.Interface" />
       </list>
     </recent_temporary>
   </component>
