@@ -19,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/src/Room_Bedroom.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingChars.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Number_Reversal.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/MultilevelInheritance.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1yj0ESQ6J539Gi0V71WjQTmgJQt" />
   <component name="ProjectViewState">
@@ -32,16 +33,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.LongestSubstring">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo2" />
-      <module name="OOPS_Lab_SY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="OOPS_Lab_SY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,8 +55,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPalindrome" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <module name="OOPS_Lab_SY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInheritance2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestInheritance2" />
       <module name="OOPS_Lab_SY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,11 +71,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.TestInheritance2" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.StringPalindrome" />
-        <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
   </component>

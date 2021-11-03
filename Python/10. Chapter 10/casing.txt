@@ -1,0 +1,3 @@
+camelCasing - isEmpty(), isNumeric() --> used for method names
+
+PascalCasing - UniversityStudent, IndianResident --> used for class names

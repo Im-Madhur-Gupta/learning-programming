@@ -2,4 +2,4 @@
 
 2. arr = [0]*n creates an array filled with n 0s
 
-3. 
+3. using os module, os.remove(path) we can remove a file.

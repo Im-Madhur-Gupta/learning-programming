@@ -25,26 +25,36 @@ class Lucky_Integers_Fast {
     public static String solnFast(long n, int k, int y) {
         List<Long> arr = recamanSeq(n);
         Set<Long> arr_hash_set = new HashSet<Long>(arr);
-        long min = 1000000000000L;
+//        long min_pdt = 1000000000000L;
+        long min_pair[] = {1000000L, 1000000L};
         String ans = "-1";
         for (int i = 0; i < arr.size(); i++) {
-            Deque<Long[]> subarr = new ArrayDeque<>((int) (2 * k));
+            Deque<Long[]> queue = new ArrayDeque<>((int) (2 * k));
             for (int j = i - k; j <= i + k; j++) {
                 if (j == i || j < 0L || j >= arr.size()) {
                     continue;
                 }
-                subarr.addLast(new Long[]{arr.get(i), arr.get(j)});
+                queue.addLast(new Long[]{arr.get(i), arr.get(j)});
             }
-            while (!subarr.isEmpty()) {
-                Long[] temp = subarr.removeFirst();
-                if (arr_hash_set.contains(y - temp[0] * temp[1]) && min > temp[0] * temp[1]) {
-                    min = temp[0] * temp[1];
-                    if (temp[0] > temp[1]) {
-                        ans = temp[1] + " " + temp[0] + " " + (y - temp[0] * temp[1]);
-                    } else {
-                        ans = temp[0] + " " + temp[1] + " " + (y - temp[0] * temp[1]);
+            while (!queue.isEmpty()) {
+                Long[] temp = queue.removeFirst();
+                if (arr_hash_set.contains(y - temp[0] * temp[1])) {
+                    long a_temp = Math.min(temp[0], temp[1]), b_temp = Math.max(temp[0], temp[1]);
+                    if (min_pair[0] * min_pair[1] > temp[0] * temp[1]) {
+                        min_pair[0] = a_temp;
+                        min_pair[1] = b_temp;
                     }
-
+                    else if (min_pair[0] * min_pair[1] == temp[0] * temp[1]) {
+                        if(min_pair[0]>a_temp){
+                            min_pair[0] = a_temp;
+                            min_pair[1] = b_temp;
+                        }
+                        else if(min_pair[0]==a_temp && min_pair[1]>b_temp){
+                            min_pair[0] = a_temp;
+                            min_pair[1] = b_temp;
+                        }
+                    }
+                    ans = min_pair[0] + " " + min_pair[1] + " " + (y - min_pair[0] * min_pair[1]);
                 }
             }
         }

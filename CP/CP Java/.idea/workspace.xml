@@ -16,6 +16,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Lucky_Integers_Fast.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Vidit_and_simple_queries.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Reading_Space_Separated_Ints.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lucky_Integers_Slow.java" root0="SKIP_INSPECTION" />
   </component>
@@ -30,14 +31,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
-  <component name="RunManager" selected="Application.Lucky_Integers_Fast">
-    <configuration name="Lucky_Integers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lucky_Integers" />
-      <module name="CP Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="Lucky_Integers_Fast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lucky_Integers_Fast" />
       <module name="CP Java" />
@@ -45,22 +39,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lucky_Integers_Slow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lucky_Integers_Slow" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main2" />
       <module name="CP Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reading_Space_Separated_Ints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reading_Space_Separated_Ints" />
+    <configuration name="RAW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RAW" />
       <module name="CP Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tricky_Path" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tricky_Path" />
+    <configuration name="abhirace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abhirace" />
+      <module name="CP Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="temp" />
       <module name="CP Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,11 +69,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.RAW" />
+        <item itemvalue="Application.abhirace" />
+        <item itemvalue="Application.temp" />
         <item itemvalue="Application.Lucky_Integers_Fast" />
-        <item itemvalue="Application.Lucky_Integers_Slow" />
-        <item itemvalue="Application.Lucky_Integers" />
-        <item itemvalue="Application.Tricky_Path" />
-        <item itemvalue="Application.Reading_Space_Separated_Ints" />
       </list>
     </recent_temporary>
   </component>

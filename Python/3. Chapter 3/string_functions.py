@@ -33,4 +33,9 @@ print(a.find("a"))
 # matlab string aisi ki aisi reh jaegi
 # it doesn't affect the original string unless we want it to,
 # ex. - a = a.replace(old word,new word)
-print(a.replace("madhur","jay"))
+print(a.replace("madhur", "jay"))
+
+
+# strip() method - just removes leading and trailing whitespaces.
+print("    ad  as    ")
+print("    ad  as    ".strip())
