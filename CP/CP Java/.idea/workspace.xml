@@ -15,10 +15,14 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ValidMountainArray.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lucky_Integers_Fast.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Vidit_and_simple_queries.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/third_max_num.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/num_not_present.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Reading_Space_Separated_Ints.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lucky_Integers_Slow.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Knapsack_Problem.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1xZjhEpi8bwjHEFU8r23EvzObHf" />
   <component name="ProjectViewState">
@@ -32,8 +36,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RunManager" selected="Application.Main2">
-    <configuration name="Lucky_Integers_Fast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lucky_Integers_Fast" />
+    <configuration name="Knapsack_Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Knapsack_Problem" />
       <module name="CP Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -53,15 +57,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="abhirace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abhirace" />
+    <configuration name="Solutio1n" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solutio1n" />
       <module name="CP Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temp" />
+    <configuration name="abhirace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abhirace" />
       <module name="CP Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,10 +74,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Solutio1n" />
+        <item itemvalue="Application.Knapsack_Problem" />
         <item itemvalue="Application.RAW" />
         <item itemvalue="Application.abhirace" />
-        <item itemvalue="Application.temp" />
-        <item itemvalue="Application.Lucky_Integers_Fast" />
       </list>
     </recent_temporary>
   </component>

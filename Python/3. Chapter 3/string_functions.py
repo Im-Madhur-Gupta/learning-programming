@@ -14,9 +14,9 @@ print(a.endswith("ia."))
 print(a.count("a"))
 
 # 4. string_name.capitalize() -
-# this function can capitalizes any chracter of  given string
-# kis character ko capitalize karana he wo a[index].capitalize karke batenge
-# agr sirf a.capitalize likha to by default 1st character capitalize ho jaega
+# this function can capitalize any chracter of given string
+# kis character ko capitalize karana he wo a[index].capitalize() karke bataenge
+# agr sirf a.capitalize() likha to by default 1st character capitalize ho jaega
 # it doesn't affect the original string unless we want it to,
 # ex. - a = a.capitalize()
 print(a.capitalize())
