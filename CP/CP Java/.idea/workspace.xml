@@ -16,6 +16,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/ValidMountainArray.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/linked_list_1st_common_node.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lucky_Integers_Fast.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Vidit_and_simple_queries.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/third_max_num.java" root0="SKIP_INSPECTION" />
@@ -35,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Solution5">
     <configuration name="Knapsack_Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Knapsack_Problem" />
       <module name="CP Java" />
@@ -64,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="abhirace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abhirace" />
+    <configuration name="Solution5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution5" />
       <module name="CP Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,11 +74,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution5" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Solutio1n" />
         <item itemvalue="Application.Knapsack_Problem" />
         <item itemvalue="Application.RAW" />
-        <item itemvalue="Application.abhirace" />
       </list>
     </recent_temporary>
   </component>

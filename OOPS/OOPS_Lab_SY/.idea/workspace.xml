@@ -15,11 +15,16 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Number_Reversal.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/StringPalindrome.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Try_Catch_Finally.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Room_Bedroom.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingChars.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Number_Reversal.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/MultilevelInheritance.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/CalculatorImplementation/Calculator.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1yj0ESQ6J539Gi0V71WjQTmgJQt" />
   <component name="ProjectViewState">
@@ -33,16 +38,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Account" />
-      <module name="OOPS_Lab_SY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainClass" />
+  <component name="RunManager" selected="Application.Try_Catch_Finally">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculatorDriver.Driver" />
       <module name="OOPS_Lab_SY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,8 +60,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInheritance2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestInheritance2" />
+    <configuration name="Thread1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread1" />
+      <module name="OOPS_Lab_SY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Try_Catch_Finally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Try_Catch_Finally" />
       <module name="OOPS_Lab_SY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,11 +76,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Try_Catch_Finally" />
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.Thread1" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Number" />
-        <item itemvalue="Application.Account" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.TestInheritance2" />
       </list>
     </recent_temporary>
   </component>

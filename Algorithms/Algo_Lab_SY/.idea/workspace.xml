@@ -15,15 +15,19 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Sort_Expiry_Dates.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Order_Violation_202051112.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Min_Coins_202051112.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/_3_Way_QuickSort.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Dijkstras_algo_all_path_shortest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/SelectionSort.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/BubbleSort.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/BinarySearch.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LinearSearch.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/BubbleSort.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/SelectionSort.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Sort_Expiry_Dates.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/_3_Way_QuickSort.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/InsertionSort.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Min_Coins_202051112.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Order_Violation_202051112.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1ylAyIN7gXNW7tIpOGCrlCK1qjJ" />
   <component name="ProjectViewState">
@@ -36,7 +40,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CP/CP Java" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
-  <component name="RunManager" selected="Application._3_Way_QuickSort">
+  <component name="RunManager" selected="Application.Dijkstras_Algo_All_Pair_Shortest_Path">
+    <configuration name="DijkstrasAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DijkstrasAlgorithm" />
+      <module name="Algo_Lab_SY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dijkstras_Algo_All_Pair_Shortest_Path" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dijkstras_Algo_All_Pair_Shortest_Path" />
+      <module name="Algo_Lab_SY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinCoins202051112" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinCoins202051112" />
       <module name="Algo_Lab_SY" />
@@ -51,13 +69,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Order_Violation_202051112" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Order_Violation_202051112" />
-      <module name="Algo_Lab_SY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_3_Way_QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_3_Way_QuickSort" />
       <module name="Algo_Lab_SY" />
@@ -65,20 +76,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="coin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coin" />
-      <module name="Algo_Lab_SY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dijkstras_Algo_All_Pair_Shortest_Path" />
+        <item itemvalue="Application.DijkstrasAlgorithm" />
         <item itemvalue="Application._3_Way_QuickSort" />
         <item itemvalue="Application.Min_Coins_202051112" />
         <item itemvalue="Application.MinCoins202051112" />
-        <item itemvalue="Application.coin" />
-        <item itemvalue="Application.Order_Violation_202051112" />
       </list>
     </recent_temporary>
   </component>
