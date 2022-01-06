@@ -1,6 +1,6 @@
 class ListNode {
     int val;
-    ListNode next;
+    ListNode1 next;
     ListNode() {
         val = 0;
         next = null;
@@ -12,12 +12,12 @@ class ListNode {
 }
 
 class Solution5 {
-    public static ListNode detectCycle(ListNode head) {
+    public static ListNode1 detectCycle(ListNode1 head) {
         if (head == null) { // Linked List khali he
             return null;
         }
-        ListNode current = head, next = head.next;
-        ListNode temp_point = new ListNode();
+        ListNode1 current = head, next = head.next;
+        ListNode1 temp_point = new ListNode1();
         while (current != null && next != null) {
             next = current.next;
             if (current.next != temp_point) {
@@ -31,10 +31,10 @@ class Solution5 {
     }
 
     public static void main(String[] args) {
-        ListNode head = new ListNode(3);
-        ListNode temp1 = new ListNode(2);
-        ListNode temp2 = new ListNode(0);
-        ListNode temp3 = new ListNode(-4);
+        ListNode1 head = new ListNode1(3);
+        ListNode1 temp1 = new ListNode1(2);
+        ListNode1 temp2 = new ListNode1(0);
+        ListNode1 temp3 = new ListNode1(-4);
         head.next = temp1;
         temp1.next = temp2;
         temp2.next = temp3;

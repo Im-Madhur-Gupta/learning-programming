@@ -1,19 +1,19 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * public class ListNode1 {
  *     int val;
- *     ListNode next;
- *     ListNode(int x) {
+ *     ListNode1 next;
+ *     ListNode1(int x) {
  *         val = x;
  *         next = null;
  *     }
  * }
  */
 public class linked_list_1st_common_node {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    public ListNode1 getIntersectionNode(ListNode1 headA, ListNode1 headB) {
         // SOLUTION 1 - Uses the fact that the values in the linked list are only +ive
         // So, if values are made negative as well then this soln won't work/
-//         ListNode iterA=headA, iterB=headB;
+//         ListNode1 iterA=headA, iterB=headB;
 //         while(iterA!=null){ // Marked all nodes of A as -ive/visited.
 //             iterA.val*=-1;
 //             iterA=iterA.next;
@@ -35,7 +35,7 @@ public class linked_list_1st_common_node {
 
         // SOLUTION 2 - Will work in all cases, ie for all ques. variations.
         int s1=0,s2=0;
-        ListNode iterA=headA, iterB=headB;
+        ListNode1 iterA=headA, iterB=headB;
         while(iterA!=null){ // calculating size of A
             s1++;
             iterA=iterA.next;

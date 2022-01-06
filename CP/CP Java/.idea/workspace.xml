@@ -15,15 +15,16 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/ValidMountainArray.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/linked_list_1st_common_node.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Lucky_Integers_Fast.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Vidit_and_simple_queries.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/third_max_num.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/num_not_present.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Reading_Space_Separated_Ints.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lucky_Integers_Slow.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_Problem.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ValidMountainArray.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Reading_Space_Separated_Ints.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LL_palindrome.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/linked_list_1st_common_node.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/third_max_num.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Lucky_Integers_Fast.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1xZjhEpi8bwjHEFU8r23EvzObHf" />
   <component name="ProjectViewState">
@@ -33,10 +34,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ESGFS" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
-  <component name="RunManager" selected="Application.Solution5">
+  <component name="RunManager" selected="Application.BadSolution">
+    <configuration name="BadSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BadSolution" />
+      <module name="CP Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Knapsack_Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Knapsack_Problem" />
       <module name="CP Java" />
@@ -46,13 +54,6 @@
     </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main2" />
-      <module name="CP Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RAW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RAW" />
       <module name="CP Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,11 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BadSolution" />
         <item itemvalue="Application.Solution5" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Solutio1n" />
         <item itemvalue="Application.Knapsack_Problem" />
-        <item itemvalue="Application.RAW" />
       </list>
     </recent_temporary>
   </component>
