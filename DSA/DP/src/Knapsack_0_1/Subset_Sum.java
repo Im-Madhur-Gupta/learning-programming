@@ -2,7 +2,7 @@ package Knapsack_0_1;
 
 import java.util.Arrays;
 
-public class Var1_Subset_Sum {
+public class Subset_Sum {
     public static void main(String[] args) {
         int n = 5;
         int sum = 7;
