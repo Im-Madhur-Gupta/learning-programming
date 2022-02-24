@@ -31,12 +31,15 @@
     <setting file="file://$PROJECT_DIR$/src/LCS/Len_Shortest_Comm_SuperSeq.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_Unbounded/CoinChange2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_0_1/MInSubsetSumDiff.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/Min_No_Insrt_make_a_Str_Palindrome.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_0_1/CountSubsetsOfSum.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LCS/PureLCSRecur.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LCS/MemoizedLCSRecur.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LCS/TDLCS.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LCS/LCSubstring.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LCS/PrintLCS.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/SequencePatternMatching.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/LongestRepeatingSubsequence.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LCS/Min_Dels_to_make_a_Str_Palindrome.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LCS/LongestPalindromicSubsequence.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_Unbounded/UnboundedKnapsackTD.java" root0="SKIP_INSPECTION" />
@@ -56,14 +59,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Min_Dels_to_make_a_Str_Palindrome">
-    <configuration name="Len_Shortest_Comm_SuperSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LCS.Len_Shortest_Comm_SuperSeq" />
+  <component name="RunManager" selected="Application.Min_No_Insrt_make_a_Str_Palindrome">
+    <configuration name="LongestPalindromicSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LCS.LongestPalindromicSubsequence" />
       <module name="DP" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LCS.LongestPalindromicSubsequence" />
+    <configuration name="LongestRepeatingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LCS.LongestRepeatingSubsequence" />
       <module name="DP" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Min_No_Del_Insert_a_to_b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LCS.Min_No_Del_Insert_a_to_b" />
+    <configuration name="Min_No_Insrt_make_a_Str_Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LCS.Min_No_Insrt_make_a_Str_Palindrome" />
       <module name="DP" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Print_Shortest_Comm_SuperSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LCS.Print_Shortest_Comm_SuperSeq" />
+    <configuration name="SequencePatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LCS.SequencePatternMatching" />
       <module name="DP" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Min_No_Insrt_make_a_Str_Palindrome" />
+        <item itemvalue="Application.SequencePatternMatching" />
+        <item itemvalue="Application.LongestRepeatingSubsequence" />
         <item itemvalue="Application.Min_Dels_to_make_a_Str_Palindrome" />
         <item itemvalue="Application.LongestPalindromicSubsequence" />
-        <item itemvalue="Application.Min_No_Del_Insert_a_to_b" />
-        <item itemvalue="Application.Print_Shortest_Comm_SuperSeq" />
-        <item itemvalue="Application.Len_Shortest_Comm_SuperSeq" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +161,9 @@
       <workItem from="1645174757195" duration="852000" />
       <workItem from="1645341728065" duration="1541000" />
       <workItem from="1645345074418" duration="3230000" />
-      <workItem from="1645433291314" duration="937000" />
+      <workItem from="1645433291314" duration="4074000" />
+      <workItem from="1645628674580" duration="15000" />
+      <workItem from="1645686995217" duration="2454000" />
     </task>
     <servers />
   </component>
