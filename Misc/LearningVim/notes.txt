@@ -1,0 +1,41 @@
+* Vim has got modes -
+
+-> When we open a file we are in Normal Mode.
+
+1. Normal Mode -
+* ":" is used to execute a command.
+* save & quit -> :wq - write and quit
+* dismiss all changes and quit -> :q!
+* :q will work only if there are no changes in the file that havent been written.
+* just save -> :w
+* say x lines neeche le jana he cursor -> type x then down arrow. (same for l, r, d)
+* undo -> u, 5 then u yani 5 undoes kardo.
+* redo -> ctrl+r, same for 5 then ctrl + r
+* delete a line -> us line pe cursor lao then dd, number ke sath bhi combine kar sakte.
+* copy a line -> us line pe cursor lao then yy, number ke sath bhi combine kar sakte.
+* ek line pe cursor ho and cursor ke agge ka us line ka delete karna he to shft c => C. (D bhi kuch aisa hi kaam krta)
+* Next word pe jump karne ke liye - w
+* Prev word pe anne ke liye - b
+* Intresting - bracket, quotes ke andar ka sara copy, delete karne ke liye -
+        y i ) OR y i ( for copying everything between (_____<cursor>______)
+* Intresting - Kisi bhi bracket pe ho aur % press karoge to uske corresponding closing/opening bracket pe jump kar jaoge.
+* Kisi line pe jump karne ke liye :<line number>
+
+
+2. Insert Mode -
+* Insert mode mai apn basically text likhte he.
+* To enter Insert Mode press "i" or "a" or "o", aur bhi bohot sare ways he, changes saro mai yahi he ki app insert mode mai kaha par land karoge.
+* To enter Normal Mode from Insert Mode we press "esc".
+
+
+3. Visual Mode -
+* Used to select text
+* v to enter Visual Mode
+* delete selected text -> select karo then d
+* copy selected text -> select karo then y
+* paste selected text -> select karo then p, 10 p, 10 baar paste kardega
+* Yaha agr sirf ek char change karna ho to -> usse select karo then r, then type the new char.
+
+** .vimrc ->
+set relativenumber
+set autoindent
