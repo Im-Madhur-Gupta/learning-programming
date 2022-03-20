@@ -30,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/src/Knapsack_Unbounded/CoinChange1.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LCS/Len_Shortest_Comm_SuperSeq.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_Unbounded/CoinChange2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/MCM/MCM_Recur.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_0_1/MInSubsetSumDiff.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LCS/Min_No_Insrt_make_a_Str_Palindrome.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_0_1/CountSubsetsOfSum.java" root0="SKIP_INSPECTION" />
@@ -64,9 +65,9 @@
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Min_No_Insrt_make_a_Str_Palindrome">
-    <configuration name="LongestPalindromicSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LCS.LongestPalindromicSubsequence" />
+  <component name="RunManager" selected="Application.MCM_Recur">
+    <configuration name="LongestRepeatingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LCS.LongestRepeatingSubsequence" />
       <module name="DP" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestRepeatingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LCS.LongestRepeatingSubsequence" />
+    <configuration name="MCM_Recur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MCM.MCM_Recur" />
       <module name="DP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LCS.*" />
+          <option name="PATTERN" value="MCM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MCM_Recur" />
         <item itemvalue="Application.Min_No_Insrt_make_a_Str_Palindrome" />
         <item itemvalue="Application.SequencePatternMatching" />
         <item itemvalue="Application.LongestRepeatingSubsequence" />
         <item itemvalue="Application.Min_Dels_to_make_a_Str_Palindrome" />
-        <item itemvalue="Application.LongestPalindromicSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +166,8 @@
       <workItem from="1645628674580" duration="15000" />
       <workItem from="1645686995217" duration="2454000" />
       <workItem from="1645732084671" duration="594000" />
+      <workItem from="1647684579945" duration="595000" />
+      <workItem from="1647761748188" duration="1009000" />
     </task>
     <servers />
   </component>
