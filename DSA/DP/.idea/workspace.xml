@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0283e10-66af-49ee-901d-615f2ab6c44f" name="Changes" comment="" />
+    <list default="true" id="f0283e10-66af-49ee-901d-615f2ab6c44f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,34 +21,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/LCS/LCSubstring.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/MCM/MCM_Memoized.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/MCM/PalindromePartitioning_Recur.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/MCM/MCM_Recur.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Knapsack_0_1/MInSubsetSumDiff.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/LCS/PrintLCS.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/LCS/Min_No_Del_Insert_a_to_b.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/LCS/Min_No_Insrt_make_a_Str_Palindrome.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Knapsack_0_1/CountSubsetsOfSum.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/LCS/LongestRepeatingSubsequence.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/LCS/Min_Dels_to_make_a_Str_Palindrome.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/LCS/Len_Shortest_Comm_SuperSeq.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/LCS/PureLCSRecur.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/LCS/SequencePatternMatching.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Knapsack_Unbounded/UnboundedKnapsackTD.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_Unbounded/RodCuttingProblem.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/LCS/LongestPalindromicSubsequence.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/LCS/Print_Shortest_Comm_SuperSeq.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_Unbounded/CoinChange1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Knapsack_Unbounded/UnboundedKnapsackTD.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_Unbounded/CoinChange2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LCS/TDLCS.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/Min_No_Del_Insert_a_to_b.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/PrintLCS.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/MCM/PalindromePartitioning_Recur.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LCS/MemoizedLCSRecur.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/MCM/MCM_Memoized.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/Min_No_Insrt_make_a_Str_Palindrome.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/LCSubstring.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/MCM/MCM_Recur.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/MCM/PalindromePartitioning_Memoized.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/Len_Shortest_Comm_SuperSeq.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/Min_Dels_to_make_a_Str_Palindrome.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/Print_Shortest_Comm_SuperSeq.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/PureLCSRecur.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/SequencePatternMatching.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/LongestRepeatingSubsequence.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Knapsack_0_1/MInSubsetSumDiff.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/LCS/LongestPalindromicSubsequence.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Knapsack_0_1/CountSubsetsOfSum.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24j4aaUGc6XexjR6toW3PbeGQrD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,13 +60,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Leetcode" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
   </component>
-  <component name="RunManager" selected="Application.PalindromePartitioning_Recur">
+  <component name="RunManager" selected="Application.PalindromePartitioning_Memoized">
     <configuration name="MCM_Memoized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MCM.MCM_Memoized" />
       <module name="DP" />
@@ -100,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PalindromePartitioning_Memoized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MCM.PalindromePartitioning_Memoized" />
+      <module name="DP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MCM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PalindromePartitioning_Recur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MCM.PalindromePartitioning_Recur" />
       <module name="DP" />
@@ -113,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequencePatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LCS.SequencePatternMatching" />
-      <module name="DP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LCS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromePartitioning_Memoized" />
         <item itemvalue="Application.PalindromePartitioning_Recur" />
         <item itemvalue="Application.MCM_Memoized" />
         <item itemvalue="Application.MCM_Recur" />
         <item itemvalue="Application.Min_No_Insrt_make_a_Str_Palindrome" />
-        <item itemvalue="Application.SequencePatternMatching" />
       </list>
     </recent_temporary>
   </component>
