@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0283e10-66af-49ee-901d-615f2ab6c44f" name="Changes" comment="" />
+    <list default="true" id="f0283e10-66af-49ee-901d-615f2ab6c44f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/src/LCS/LongestRepeatingSubsequence.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_0_1/MInSubsetSumDiff.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/LCS/LongestPalindromicSubsequence.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/MCM/EvaluateBoolExpToTrue.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack_0_1/CountSubsetsOfSum.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -63,7 +66,20 @@
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
   </component>
-  <component name="RunManager" selected="Application.PalindromePartitioning_Memoized">
+  <component name="RunManager" selected="Application.EvaluateBoolExpToTrue">
+    <configuration name="EvaluateBoolExpToTrue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MCM.EvaluateBoolExpToTrue" />
+      <module name="DP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MCM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MCM_Memoized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MCM.MCM_Memoized" />
       <module name="DP" />
@@ -83,19 +99,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MCM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Min_No_Insrt_make_a_Str_Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LCS.Min_No_Insrt_make_a_Str_Palindrome" />
-      <module name="DP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LCS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EvaluateBoolExpToTrue" />
         <item itemvalue="Application.PalindromePartitioning_Memoized" />
         <item itemvalue="Application.PalindromePartitioning_Recur" />
         <item itemvalue="Application.MCM_Memoized" />
         <item itemvalue="Application.MCM_Recur" />
-        <item itemvalue="Application.Min_No_Insrt_make_a_Str_Palindrome" />
       </list>
     </recent_temporary>
   </component>
