@@ -25,6 +25,7 @@ class MainDiameterBT {
 }
 
 // Diameter of BT - Number of nodes in the longest path between 2 leaf nodes of the tree.
+// Note - The diameter path may not contain the root.
 // TC - O(n), SC - O(n)
 // Approach -
 // - The diameter of the whole BT is the max of no. of nodes in the longest path b/w 2 leaf nodes
