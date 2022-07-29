@@ -9,14 +9,78 @@
 // 2. Time Complexity for both enqueue and dequeue is O(1) for both the implementations,
 //    assuming that resizing is not required, as this is an array then resizng will cost O(n).
 // 3. Backing by array (circular) makes it momory efficient as pointers arent involved.
-public class QueueArr {
+
+// Implementation without using size variable
+// Circular Queue on ints backed by Array without using size variable
+class QueueArrWithoutSize{
+    int nums[];
+    int front;
+    int rear;
+
+    public QueueArrWithoutSize(int n){
+        this.nums = new int[n];
+        this.front = -1;
+        this.rear = -1;
+    }
+
+    public boolean isEmpty(){
+        // whenever the queue becomes empty I will take the front and rear indices to -1.
+        return this.front==-1 && this.rear==-1;
+    }
+
+    public boolean isFull(){
+        return (this.front==0 && this.rear==this.nums.length-1) || this.front==this.rear+1;
+    }
+
+    public int peekFront(){
+        if(this.isEmpty()) return Integer.MIN_VALUE;
+        return this.nums[this.front];
+    }
+
+    public int peekRear(){
+        if(this.isEmpty()) return Integer.MIN_VALUE;
+        return this.nums[this.rear];
+    }
+
+    public boolean enqueue(int newElement){
+        if(this.isFull()) return false;
+
+        if(this.isEmpty()){
+            this.front = this.rear = 0;
+            this.nums[0] = newElement;
+            return true;
+        }
+
+
+
+        this.nums[this.rear] = newElement;
+        return true;
+    }
+
+    public int dequeue(){
+        if(isEmpty()) return Integer.MIN_VALUE;
+
+        int dequeuedElement = this.nums[this.front++];
+
+        // queue will become empty after dequeue
+        // queue becomes empty once front and rear cross each other after removal
+        if(this.front==this.rear+1) this.front=this.rear=-1;
+
+        if(this.front==this.nums.length) this.front=0;
+
+        return dequeuedElement;
+    }
+}
+
+// Implementation Using a size variable.
+class QueueArrWithSize {
     private int queueArr[];
     int size;
     private int front; // points at the current front element
     private int rear; // points at the current rear element
 
     // constructor
-    public QueueArr(int capacity){
+    public QueueArrWithSize(int capacity){
         this.queueArr = new int[capacity];
         this.front = -1;
         this.rear = -1;
@@ -85,22 +149,25 @@ public class QueueArr {
 
 class MainQueueArr{
     public static void main(String args[]){
-        QueueArr myQueue = new QueueArr(5);
+//        QueueArrWithoutSize myQueue = new QueueArrWithoutSize(5);
+        QueueArrWithSize myQueue = new QueueArrWithSize(5);
         System.out.println(myQueue.isEmpty());
         System.out.println(myQueue.isFull());
+        System.out.println(myQueue.enqueue(1)); // 1
+        System.out.println(myQueue.enqueue(2)); // 1 2
+        System.out.println(myQueue.enqueue(3)); // 1 2 3
+        System.out.println(myQueue.dequeue()); // 2 3
+        System.out.println(myQueue.dequeue()); // 3
+        System.out.println(myQueue.enqueue(4)); // 3 4
+        System.out.println(myQueue.enqueue(5)); // 3 4 5
+        System.out.println(myQueue.enqueue(6)); // 3 4 5 6
+        System.out.println(myQueue.enqueue(7)); // 3 4 5 6 7
+        System.out.println(myQueue.dequeue()); // 4 5 6 7
+        System.out.println(myQueue.dequeue()); // 5 6 7
+        System.out.println(myQueue.dequeue()); // 6 7
+        System.out.println(myQueue.dequeue()); // 7
         System.out.println(myQueue.dequeue());
-        System.out.println(myQueue.enqueue(1));
-        System.out.println(myQueue.enqueue(2));
-        System.out.println(myQueue.enqueue(3));
-        System.out.println(myQueue.enqueue(4));
-        System.out.println(myQueue.enqueue(5));
-        System.out.println(myQueue.enqueue(6));
-        System.out.println(myQueue.dequeue());
-        System.out.println(myQueue.dequeue());
-        System.out.println(myQueue.dequeue());
-        System.out.println(myQueue.enqueue(6));
-        System.out.println(myQueue.dequeue());
-        System.out.println(myQueue.dequeue());
-        System.out.println(myQueue.dequeue());
+        System.out.println(myQueue.isEmpty());
+        System.out.println(myQueue.isFull());
     }
 }
